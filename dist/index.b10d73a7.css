@@ -5004,7 +5004,20 @@ img, video {
   padding-bottom: 12px;
 }
 
+body {
+  font-family: Modern Era;
+}
+
+body h1 {
+  font-family: Fixture;
+}
+
+body img {
+  width: 100%;
+}
+
 header {
+  color: #fff;
   background-color: #7e61ff5a;
 }
 
@@ -5013,6 +5026,7 @@ main {
 }
 
 footer {
+  color: #fff;
   background-color: #0000005a;
 }
 

@@ -55,8 +55,21 @@ video {
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
 
+body {
+  font-family: "Modern Era";
+
+  h1 {
+    font-family: "Fixture";
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
 header {
   background-color: rgba(126, 97, 255, 0.353);
+  color: white;
 }
 
 main {
@@ -65,4 +78,5 @@ main {
 
 footer {
   background-color: rgba(0, 0, 0, 0.353);
+  color: white;
 }
