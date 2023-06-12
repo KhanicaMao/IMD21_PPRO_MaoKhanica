@@ -1,0 +1,50 @@
+#header {
+  h1 {
+    font-size: 395px;
+  }
+
+  h2 {
+    font-size: 80px;
+    padding-left: 10px;
+    font-weight: lighter;
+  }
+
+  h3 {
+    font-size: 70px;
+    margin-top: 190px;
+    padding-left: 20px;
+  }
+
+  h2,
+  h3 {
+    position: relative;
+    top: 100px;
+  }
+}
+
+#nav-section {
+  .row {
+    margin-top: 30px;
+    margin-left: 5px;
+  }
+
+  a {
+    font-size: 27px;
+    font-family: "Modern Era";
+    text-decoration: none;
+  }
+}
+
+#info {
+  a {
+    position: relative;
+    left: 40px;
+  }
+}
+
+#partenaire {
+  a {
+    position: relative;
+    right: 60px;
+  }
+}

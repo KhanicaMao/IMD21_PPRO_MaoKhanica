@@ -5,9 +5,41 @@
     left: 30px;
     width: 500px;
   }
+
+  h2 {
+    padding-top: 40px;
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 48px;
+    font-family: "Fixture";
+    margin-left: 40px;
+  }
+
+  p {
+    padding-top: 13px;
+    font-size: 26px;
+    font-weight: lighter;
+  }
 }
 
 #titre-artiste {
   font-size: 50px;
-  padding: 100px 0 50px 70px;
+  padding: 80px 0 50px 70px;
+}
+
+#kinetic-flow {
+  img {
+    width: 455px;
+  }
+}
+
+#button-ticket {
+  width: 250px;
+  padding-top: 30px;
+}
+
+.section-artiste {
+  padding-bottom: 140px;
 }

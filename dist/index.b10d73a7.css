@@ -5019,6 +5019,48 @@ footer {
   background-color: #000;
 }
 
+#header h1 {
+  font-size: 395px;
+}
+
+#header h2 {
+  padding-left: 10px;
+  font-size: 80px;
+  font-weight: lighter;
+}
+
+#header h3 {
+  margin-top: 190px;
+  padding-left: 20px;
+  font-size: 70px;
+}
+
+#header h2, #header h3 {
+  position: relative;
+  top: 100px;
+}
+
+#nav-section .row {
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+#nav-section a {
+  font-family: Modern Era;
+  font-size: 27px;
+  text-decoration: none;
+}
+
+#info a {
+  position: relative;
+  left: 40px;
+}
+
+#partenaire a {
+  position: relative;
+  right: 60px;
+}
+
 #intro img {
   width: 500px;
   margin: 85px 0 85px 200px;
@@ -5043,6 +5085,10 @@ footer {
   display: flex;
 }
 
+#projet img {
+  width: 1800px;
+}
+
 #artiste {
   background-color: #ccea2d;
 }
@@ -5053,22 +5099,53 @@ footer {
   left: 30px;
 }
 
+#artiste h2 {
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+#artiste h3 {
+  margin-left: 40px;
+  font-family: Fixture;
+  font-size: 48px;
+}
+
+#artiste p {
+  padding-top: 13px;
+  font-size: 26px;
+  font-weight: lighter;
+}
+
 #titre-artiste {
-  padding: 100px 0 50px 70px;
+  padding: 80px 0 50px 70px;
   font-size: 50px;
 }
 
+#kinetic-flow img {
+  width: 455px;
+}
+
+#button-ticket {
+  width: 250px;
+  padding-top: 30px;
+}
+
+.section-artiste {
+  padding-bottom: 140px;
+}
+
 #programme h1 {
-  margin: 88px 0 100px 80px;
+  margin: 88px 0 150px 80px;
   font-size: 70px;
 }
 
 #programme h2 {
-  font-size: 60px;
+  font-size: 80px;
 }
 
 #programme h3 {
   font-size: 50px;
+  font-weight: lighter;
 }
 
 #programme hr {
@@ -5080,6 +5157,15 @@ footer {
   font-family: Modern Era;
   font-size: 40px;
   font-weight: lighter;
+}
+
+#information {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+#img-form-jour {
+  margin-bottom: 10px;
 }
 
 #img-form-jour3 {
@@ -5100,6 +5186,10 @@ footer {
   margin-top: 320px;
   margin-left: 50px;
   font-size: 40px;
+}
+
+#localisation img {
+  width: 700px;
 }
 
 footer {

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/index.b10d73a7.css">
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="nav">
         <div class="row">
           <div class="col-12" id="nav-section">
@@ -15,10 +15,16 @@
               <div class="col-2">
                 <a href="#home"><img src="/eikonica_white.6b9ee868.svg" alt="eikonica"></a>
               </div>
-              <div class="col-2"><a href="#exposition">Exposition</a></div>
-              <div class="col-2"><a href="#infos">Infos pratiques</a></div>
+              <div class="col-1 offset-2">
+                <a href="#exposition">Exposition</a>
+              </div>
+              <div class="col-2" id="info">
+                <a href="#infos">Infos pratiques</a>
+              </div>
               <div class="col-2"><a href="#programme">Programme</a></div>
-              <div class="col-2"><a href="#partenaire">Partenaires</a></div>
+              <div class="col-1" id="partenaire">
+                <a href="#partenaire">Partenaires</a>
+              </div>
               <div class="col-1"><a href="#contact">Contact</a></div>
               <div class="col-1"><a href="#langue">FR/DE</a></div>
             </div>
@@ -64,26 +70,28 @@
       </div>
       <div class="section-exposition-infos">
         <div class="row">
-          <div class="col-6"><h1>Exposition</h1></div>
-          <div class="col-6"><h1>Infos pratiques</h1></div>
+          <div class="col-6">
+            <img src="/image-exposition.dc84cb9b.png" alt="exposition">
+          </div>
+          <div class="col-6">
+            <img src="/image-infos.6e57652d.png" alt="infos-pratiques">
+          </div>
         </div>
       </div>
       <div class="section-artiste" id="artiste">
         <div class="row">
           <div class="col-12" id="titre-artiste"><h1>ARTISTE</h1></div>
-          <div class="col-4">
+          <div class="col-4" id="kinetic-flow">
             <div class="row">
               <div class="col-12">
                 <img src="/kinetic%20flow.b0d7911d.png" alt="kinetic flow">
               </div>
-              <div class="col-2">01</div>
-              <div class="col-10">
-                <h3>Kinetic Flow</h3>
+              <div class="col-2"><h3>01</h3></div>
+              <div class="col-10" id="kinetic-txt">
+                <h2>Kinetic Flow</h2>
                 <p>Artiste fribourgeois</p>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="button"><p>TICKET</p></div>
+                <div class="col-11" id="button-ticket">
+                  <img src="/button-ticket.c0a6e944.png" alt="button">
                 </div>
               </div>
             </div>
@@ -93,14 +101,12 @@
               <div class="col-12">
                 <img src="/neon%20pulse.80f3ddd3.png" alt="neon pulse">
               </div>
-              <div class="col-2">02</div>
-              <div class="col-10">
-                <h3>Neon Pulse</h3>
+              <div class="col-2"><h3>02</h3></div>
+              <div class="col-10" id="neon-pulse-txt">
+                <h2>Neon Pulse</h2>
                 <p>Groupe belge</p>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="button"><p>TICKET</p></div>
+                <div class="col-11" id="button-ticket">
+                  <img src="/button-ticket.c0a6e944.png" alt="button">
                 </div>
               </div>
             </div>
@@ -110,14 +116,12 @@
               <div class="col-12">
                 <img src="/min-jae%20park.7942d8e3.png" alt="min-jae park">
               </div>
-              <div class="col-2">03</div>
-              <div class="col-10">
-                <h3>Min-Jae Park</h3>
+              <div class="col-2"><h3>03</h3></div>
+              <div class="col-10" id="min-jae-txt">
+                <h2>Min-Jae Park</h2>
                 <p>Artiste sud-coréen</p>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="button"><p>TICKET</p></div>
+                <div class="col-11" id="button-ticket">
+                  <img src="/button-ticket.c0a6e944.png" alt="button">
                 </div>
               </div>
             </div>
@@ -129,10 +133,10 @@
           <div class="col-12">
             <div class="col-6"><h1>PROGRAMME</h1></div>
             <div class="row">
-              <div class="col-2 offset-1">
+              <div class="col-2 offset-1" id="img-form-jour">
                 <img src="/forme-6.7ab246eb.svg" alt="decoration">
               </div>
-              <div class="col-5">
+              <div class="col-5" id="information">
                 <div class="row">
                   <div class="col-12"><h3>13.10 | 10h00 à 20h00</h3></div>
                   <div class="col-12"><h2>JOUR 1</h2></div>
@@ -146,10 +150,10 @@
           <div class="col-12"><hr></div>
           <div class="col-12">
             <div class="row">
-              <div class="col-2 offset-1">
-                <img src="/forme-4.9cbfcbc3.svg" alt="">
+              <div class="col-2 offset-1" id="img-form-jour">
+                <img src="/forme-4.9cbfcbc3.svg" alt="forme">
               </div>
-              <div class="col-5">
+              <div class="col-5" id="information">
                 <div class="row">
                   <div class="col-12"><h3>14.10 | 10h00 à 20h00</h3></div>
                   <div class="col-12"><h2>JOUR 2</h2></div>
@@ -164,9 +168,9 @@
           <div class="col-12">
             <div class="row">
               <div class="col-2 offset-1" id="img-form-jour3">
-                <img src="/forme-5.38cf97b6.svg" alt="">
+                <img src="/forme-5.38cf97b6.svg" alt="forme">
               </div>
-              <div class="col-5">
+              <div class="col-5" id="information">
                 <div class="row">
                   <div class="col-12"><h3>15.10 | 10h00 à 21h00</h3></div>
                   <div class="col-12"><h2>JOUR 3</h2></div>
