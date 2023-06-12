@@ -5058,8 +5058,48 @@ footer {
   font-size: 50px;
 }
 
+#programme h1 {
+  margin: 88px 0 100px 80px;
+  font-size: 70px;
+}
+
+#programme h2 {
+  font-size: 60px;
+}
+
+#programme h3 {
+  font-size: 50px;
+}
+
+#programme hr {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#programme p {
+  font-family: Modern Era;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#img-form-jour3 {
+  margin-bottom: 140px;
+}
+
 #localisation {
+  color: #fff;
   background-color: #3f53d8;
+}
+
+#localisation h1 {
+  margin-left: 50px;
+  font-size: 130px;
+}
+
+#localisation p {
+  margin-top: 320px;
+  margin-left: 50px;
+  font-size: 40px;
 }
 
 footer {
