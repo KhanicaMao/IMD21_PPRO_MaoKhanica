@@ -4993,17 +4993,6 @@ img, video {
   vertical-align: middle;
 }
 
-.row + .row {
-  margin-top: 16px;
-}
-
-.row > .col, .row > [class^="col-"] {
-  background-color: #563d7c26;
-  border: 1px solid #563d7c33;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
 body {
   font-family: Modern Era;
 }
@@ -5018,16 +5007,96 @@ body img {
 
 header {
   color: #fff;
-  background-color: #7e61ff5a;
+  background-color: #000;
 }
 
 main {
-  background-color: #98e75c5a;
+  background-color: #fff;
 }
 
 footer {
   color: #fff;
-  background-color: #0000005a;
+  background-color: #000;
+}
+
+#intro img {
+  width: 500px;
+  margin: 85px 0 85px 200px;
+  position: relative;
+}
+
+#intro p {
+  padding-top: 200px;
+  font-size: 27px;
+}
+
+#projet {
+  color: #fff;
+  background-color: #000;
+}
+
+#projet h1 {
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 70px;
+  font-size: 80px;
+  display: flex;
+}
+
+#artiste {
+  background-color: #ccea2d;
+}
+
+#artiste img {
+  width: 500px;
+  position: relative;
+  left: 30px;
+}
+
+#titre-artiste {
+  padding: 100px 0 50px 70px;
+  font-size: 50px;
+}
+
+#localisation {
+  background-color: #3f53d8;
+}
+
+footer {
+  padding-top: 70px;
+}
+
+#footer img {
+  width: 300px;
+}
+
+#footer h4 {
+  font-size: 27px;
+}
+
+#footer p {
+  font-size: 20px;
+}
+
+#logo-partenaire {
+  padding-top: 90px;
+  padding-bottom: 10px;
+  position: relative;
+  right: 35px;
+}
+
+#partenaire img {
+  width: 180px;
+}
+
+#logo-etat-fribourg img {
+  width: 125px;
+  position: relative;
+  bottom: 35px;
+}
+
+#copyright {
+  padding: 30px 0;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */
