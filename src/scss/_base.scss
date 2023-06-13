@@ -29,6 +29,54 @@ body {
   line-height: 1.25;
 }
 
+@font-face {
+  font-family: "Fixture-Medium";
+  src: url("/src/fonts/Fixture-Medium.woff") format("woff"),
+    url("/src/fonts/Fixture-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fixture-CondensedMedium";
+  src: url("/src/fonts/Fixture-CondensedMedium.woff") format("woff"),
+    url("/src/fonts/Fixture-CondensedMedium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fixture-ExpandedLight";
+  src: url("/src/fonts/Fixture-ExpandedLight.woff") format("woff"),
+    url("/src/fonts/Fixture-ExpandedLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FixtureItalic-ExpandedExtralight";
+  src: url("/src/fonts/FixtureItalic-ExpandedExtraLight.woff") format("woff"),
+    url("/src/fonts/FixtureItalic-ExpandedExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fixture-CondensedExtraBold";
+  src: url("/src/fonts/Fixture-CondensedExtraBold.woff") format("woff"),
+    url("/src/fonts/Fixture-CondensedExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fixture-ExpandedBold";
+  src: url("/src/fonts/Fixture-ExpandedBold.woff") format("woff"),
+    url("/src/fonts/Fixture-ExpandedBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fixture-ExpandedExtraBold";
+  src: url("/src/fonts/Fixture-ExpandedExtraBold.woff") format("woff"),
+    url("/src/fonts/Fixture-ExpandedExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fixture-ExpandedSemiBold";
+  src: url("/src/fonts/Fixture-ExpandedSemiBold.woff") format("woff"),
+    url("/src/fonts/Fixture-ExpandedSemiBold.woff2") format("woff2");
+}
+
 a {
   color: inherit;
 }

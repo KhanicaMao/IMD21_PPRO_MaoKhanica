@@ -4983,6 +4983,46 @@ body {
   line-height: 1.25;
 }
 
+@font-face {
+  font-family: Fixture-Medium;
+  src: url("Fixture-Medium.845a0edb.woff") format("woff"), url("Fixture-Medium.3a6e713a.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Fixture-CondensedMedium;
+  src: url("Fixture-CondensedMedium.e2c3da4b.woff") format("woff"), url("Fixture-CondensedMedium.efc60c76.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Fixture-ExpandedLight;
+  src: url("Fixture-ExpandedLight.0248b36d.woff") format("woff"), url("Fixture-ExpandedLight.9a7bcffd.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: FixtureItalic-ExpandedExtralight;
+  src: url("FixtureItalic-ExpandedExtraLight.2f9c90e9.woff") format("woff"), url("FixtureItalic-ExpandedExtraLight.2f44cff0.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Fixture-CondensedExtraBold;
+  src: url("Fixture-CondensedExtraBold.1a9b0a6c.woff") format("woff"), url("Fixture-CondensedExtraBold.2dfae4d1.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Fixture-ExpandedBold;
+  src: url("Fixture-ExpandedBold.5eedcdcc.woff") format("woff"), url("Fixture-ExpandedBold.9f583e85.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Fixture-ExpandedExtraBold;
+  src: url("Fixture-ExpandedExtraBold.1ee4179c.woff") format("woff"), url("Fixture-ExpandedExtraBold.57d5bb33.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Fixture-ExpandedSemiBold;
+  src: url("Fixture-ExpandedSemiBold.5de6c48b.woff") format("woff"), url("Fixture-ExpandedSemiBold.f8251361.woff2") format("woff2");
+}
+
 a {
   color: inherit;
 }
@@ -5020,18 +5060,21 @@ footer {
 }
 
 #header h1 {
+  font-family: Fixture-CondensedExtraBold;
   font-size: 395px;
 }
 
 #header h2 {
   padding-left: 10px;
+  font-family: Fixture-Expandedlight;
   font-size: 80px;
   font-weight: lighter;
 }
 
 #header h3 {
-  margin-top: 190px;
+  margin-top: 150px;
   padding-left: 20px;
+  font-family: Fixture-ExpandedSemiBold;
   font-size: 70px;
 }
 
@@ -5081,6 +5124,7 @@ footer {
   justify-content: center;
   padding-top: 35px;
   padding-bottom: 70px;
+  font-family: Fixture-ExpandedBold;
   font-size: 80px;
   display: flex;
 }
@@ -5093,6 +5137,10 @@ footer {
   background-color: #ccea2d;
 }
 
+#artiste h1 {
+  font-family: Fixture-ExpandedBold;
+}
+
 #artiste img {
   width: 500px;
   position: relative;
@@ -5101,17 +5149,19 @@ footer {
 
 #artiste h2 {
   padding-top: 40px;
+  font-family: Fixture-ExpandedSemiBold;
   font-size: 40px;
 }
 
 #artiste h3 {
   margin-left: 40px;
-  font-family: Fixture;
+  font-family: Fixture-ExpandedLight;
   font-size: 48px;
 }
 
 #artiste p {
   padding-top: 13px;
+  font-family: FixtureItalic-ExpandedExtralight;
   font-size: 26px;
   font-weight: lighter;
 }
@@ -5125,9 +5175,14 @@ footer {
   width: 455px;
 }
 
+#nombre-artiste {
+  position: relative;
+  bottom: 28px;
+}
+
 #button-ticket {
   width: 250px;
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 .section-artiste {
@@ -5136,14 +5191,17 @@ footer {
 
 #programme h1 {
   margin: 88px 0 150px 80px;
+  font-family: Fixture-ExpandedBold;
   font-size: 70px;
 }
 
 #programme h2 {
+  font-family: Fixture-ExpandedSemiBold;
   font-size: 80px;
 }
 
 #programme h3 {
+  font-family: Fixture-CondensedMedium;
   font-size: 50px;
   font-weight: lighter;
 }
@@ -5179,12 +5237,14 @@ footer {
 
 #localisation h1 {
   margin-left: 50px;
-  font-size: 130px;
+  font-family: Fixture-ExpandedExtraBold;
+  font-size: 100px;
 }
 
 #localisation p {
   margin-top: 320px;
   margin-left: 50px;
+  font-family: Fixture-Medium;
   font-size: 40px;
 }
 
@@ -5197,10 +5257,12 @@ footer {
 }
 
 #footer img {
-  width: 300px;
+  width: 320px;
 }
 
 #footer h4 {
+  margin-bottom: 17px;
+  font-family: Fixture-ExpandedSemiBold;
   font-size: 27px;
 }
 
@@ -5215,8 +5277,13 @@ footer {
   right: 35px;
 }
 
+#lien-media {
+  position: relative;
+  left: 125px;
+}
+
 #partenaire img {
-  width: 180px;
+  width: 150px;
 }
 
 #logo-etat-fribourg img {

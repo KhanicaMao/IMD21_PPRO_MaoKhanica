@@ -4,11 +4,13 @@ footer {
 
 #footer {
   img {
-    width: 300px;
+    width: 320px;
   }
 
   h4 {
     font-size: 27px;
+    font-family: "Fixture-ExpandedSemiBold";
+    margin-bottom: 17px;
   }
 
   p {
@@ -23,9 +25,14 @@ footer {
   padding-bottom: 10px;
 }
 
+#lien-media {
+  position: relative;
+  left: 125px;
+}
+
 #partenaire {
   img {
-    width: 180px;
+    width: 150px;
   }
 }
 

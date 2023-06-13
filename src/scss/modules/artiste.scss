@@ -1,5 +1,9 @@
 #artiste {
   background-color: #ccea2d;
+  h1 {
+    font-family: "Fixture-ExpandedBold";
+  }
+
   img {
     position: relative;
     left: 30px;
@@ -7,13 +11,14 @@
   }
 
   h2 {
+    font-family: "Fixture-ExpandedSemiBold";
     padding-top: 40px;
     font-size: 40px;
   }
 
   h3 {
     font-size: 48px;
-    font-family: "Fixture";
+    font-family: "Fixture-ExpandedLight";
     margin-left: 40px;
   }
 
@@ -21,6 +26,7 @@
     padding-top: 13px;
     font-size: 26px;
     font-weight: lighter;
+    font-family: "FixtureItalic-ExpandedExtralight";
   }
 }
 
@@ -35,9 +41,14 @@
   }
 }
 
+#nombre-artiste {
+  position: relative;
+  bottom: 28px;
+}
+
 #button-ticket {
   width: 250px;
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 .section-artiste {
