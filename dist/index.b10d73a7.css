@@ -5247,6 +5247,30 @@ footer {
   margin-bottom: 140px;
 }
 
+.button {
+  cursor: pointer;
+  transition: background-color .4s;
+}
+
+.menu {
+  opacity: 0;
+  margin: 50px 0 20px 200px;
+  transition: opacity .4s;
+}
+
+.menu h4 {
+  font-family: Fixture-ExpandedLight;
+  font-size: 45px;
+}
+
+.menu p {
+  font-size: 20px;
+}
+
+.menu.is-open {
+  opacity: 1;
+}
+
 #localisation {
   color: #fff;
   background-color: #3f53d8;
@@ -5259,7 +5283,7 @@ footer {
 }
 
 #localisation p {
-  margin-top: 320px;
+  margin-top: 50px;
   margin-left: 50px;
   font-family: Fixture-Medium;
   font-size: 40px;
