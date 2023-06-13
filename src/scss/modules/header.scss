@@ -1,27 +1,27 @@
 #header {
   h1 {
     font-family: "Fixture-CondensedExtraBold";
-    font-size: 395px;
+    font-size: 540px;
   }
 
   h2 {
     font-family: "Fixture-Expandedlight";
     font-size: 80px;
-    padding-left: 10px;
+    padding-left: 20px;
     font-weight: lighter;
   }
 
   h3 {
     font-family: "Fixture-ExpandedSemiBold";
-    font-size: 70px;
-    margin-top: 150px;
-    padding-left: 20px;
+    font-size: 75px;
+    margin-top: 50px;
+    padding-left: 30px;
   }
 
   h2,
   h3 {
     position: relative;
-    top: 100px;
+    top: 155px;
   }
 }
 
@@ -49,5 +49,12 @@
   a {
     position: relative;
     right: 60px;
+  }
+}
+
+#logo-eikonica {
+  a {
+    position: relative;
+    left: 20px;
   }
 }

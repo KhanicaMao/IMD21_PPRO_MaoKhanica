@@ -5061,26 +5061,26 @@ footer {
 
 #header h1 {
   font-family: Fixture-CondensedExtraBold;
-  font-size: 395px;
+  font-size: 540px;
 }
 
 #header h2 {
-  padding-left: 10px;
+  padding-left: 20px;
   font-family: Fixture-Expandedlight;
   font-size: 80px;
   font-weight: lighter;
 }
 
 #header h3 {
-  margin-top: 150px;
-  padding-left: 20px;
+  margin-top: 50px;
+  padding-left: 30px;
   font-family: Fixture-ExpandedSemiBold;
-  font-size: 70px;
+  font-size: 75px;
 }
 
 #header h2, #header h3 {
   position: relative;
-  top: 100px;
+  top: 155px;
 }
 
 #nav-section .row {
@@ -5102,6 +5102,11 @@ footer {
 #partenaire a {
   position: relative;
   right: 60px;
+}
+
+#logo-eikonica a {
+  position: relative;
+  left: 20px;
 }
 
 #intro img {
@@ -5139,6 +5144,7 @@ footer {
 
 #artiste h1 {
   font-family: Fixture-ExpandedBold;
+  font-size: 75px;
 }
 
 #artiste img {
@@ -5148,7 +5154,7 @@ footer {
 }
 
 #artiste h2 {
-  padding-top: 40px;
+  padding-top: 50px;
   font-family: Fixture-ExpandedSemiBold;
   font-size: 40px;
 }
@@ -5167,12 +5173,22 @@ footer {
 }
 
 #titre-artiste {
-  padding: 80px 0 50px 70px;
+  padding: 50px 0 65px 70px;
   font-size: 50px;
 }
 
+#kinetic-flow {
+  position: relative;
+  left: 60px;
+}
+
 #kinetic-flow img {
-  width: 455px;
+  width: 453px;
+}
+
+#min-jae-park {
+  position: relative;
+  right: 25px;
 }
 
 #nombre-artiste {
@@ -5186,7 +5202,7 @@ footer {
 }
 
 .section-artiste {
-  padding-bottom: 140px;
+  padding-bottom: 110px;
 }
 
 #programme h1 {
@@ -5196,6 +5212,7 @@ footer {
 }
 
 #programme h2 {
+  padding-bottom: 17px;
   font-family: Fixture-ExpandedSemiBold;
   font-size: 80px;
 }
@@ -5223,7 +5240,7 @@ footer {
 }
 
 #img-form-jour {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 #img-form-jour3 {
