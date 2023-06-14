@@ -7,8 +7,7 @@
 
   img {
     position: relative;
-    left: 30px;
-    width: 500px;
+    left: 60px;
   }
 
   h2 {
@@ -33,33 +32,52 @@
 
 #titre-artiste {
   font-size: 50px;
-  padding: 50px 0 65px 70px;
+  padding: 50px 0 55px 70px;
 }
 
 #kinetic-flow {
-  position: relative;
-  left: 60px;
+  width: 575px;
 
+  .row {
+    position: relative;
+    left: 15px;
+  }
+}
+
+#neon-pulse {
   img {
-    width: 453px;
+    width: 495px;
   }
 }
 
 #min-jae-park {
   position: relative;
-  right: 25px;
-}
+  bottom: 50px;
 
-#nombre-artiste {
-  position: relative;
-  bottom: 28px;
+  .row {
+    position: relative;
+    right: 100px;
+  }
+
+  img {
+    width: 420px;
+  }
 }
 
 #button-ticket {
   width: 250px;
   padding-top: 35px;
+
+  a:hover {
+    transform: scale(1.1);
+  }
 }
 
 .section-artiste {
-  padding-bottom: 110px;
+  padding-bottom: 40px;
+}
+
+.col-4 {
+  position: relative;
+  left: 3px;
 }

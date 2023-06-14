@@ -2,7 +2,7 @@
   h1 {
     font-family: "Fixture-ExpandedBold";
     font-size: 70px;
-    margin: 88px 0 150px 80px;
+    margin: 88px 0 110px 80px;
   }
 
   h2 {
@@ -48,6 +48,8 @@
 }
 
 .menu {
+  height: auto;
+  overflow: hidden;
   margin: 50px 0 20px 200px;
 
   h4 {

@@ -5060,20 +5060,20 @@ footer {
 }
 
 #header h1 {
+  margin-left: 20px;
   font-family: Fixture-CondensedExtraBold;
-  font-size: 540px;
+  font-size: 530px;
 }
 
 #header h2 {
-  padding-left: 20px;
+  padding-left: 40px;
   font-family: Fixture-Expandedlight;
   font-size: 80px;
   font-weight: lighter;
 }
 
 #header h3 {
-  margin-top: 50px;
-  padding-left: 30px;
+  padding-left: 50px;
   font-family: Fixture-ExpandedSemiBold;
   font-size: 75px;
 }
@@ -5106,7 +5106,7 @@ footer {
 
 #logo-eikonica a {
   position: relative;
-  left: 20px;
+  left: 40px;
 }
 
 #intro img {
@@ -5148,9 +5148,8 @@ footer {
 }
 
 #artiste img {
-  width: 500px;
   position: relative;
-  left: 30px;
+  left: 60px;
 }
 
 #artiste h2 {
@@ -5173,27 +5172,35 @@ footer {
 }
 
 #titre-artiste {
-  padding: 50px 0 65px 70px;
+  padding: 50px 0 55px 70px;
   font-size: 50px;
 }
 
 #kinetic-flow {
-  position: relative;
-  left: 60px;
+  width: 575px;
 }
 
-#kinetic-flow img {
-  width: 453px;
+#kinetic-flow .row {
+  position: relative;
+  left: 15px;
+}
+
+#neon-pulse img {
+  width: 495px;
 }
 
 #min-jae-park {
   position: relative;
-  right: 25px;
+  bottom: 50px;
 }
 
-#nombre-artiste {
+#min-jae-park .row {
   position: relative;
-  bottom: 28px;
+  right: 100px;
+}
+
+#min-jae-park img {
+  width: 420px;
 }
 
 #button-ticket {
@@ -5201,12 +5208,21 @@ footer {
   padding-top: 35px;
 }
 
+#button-ticket a:hover {
+  transform: scale(1.1);
+}
+
 .section-artiste {
-  padding-bottom: 110px;
+  padding-bottom: 40px;
+}
+
+.col-4 {
+  position: relative;
+  left: 3px;
 }
 
 #programme h1 {
-  margin: 88px 0 150px 80px;
+  margin: 88px 0 110px 80px;
   font-family: Fixture-ExpandedBold;
   font-size: 70px;
 }
@@ -5253,9 +5269,11 @@ footer {
 }
 
 .menu {
+  height: auto;
   opacity: 0;
   margin: 50px 0 20px 200px;
   transition: opacity .4s;
+  overflow: hidden;
 }
 
 .menu h4 {
@@ -5295,6 +5313,10 @@ footer {
 
 footer {
   padding-top: 70px;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 #footer img {
