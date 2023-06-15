@@ -34,17 +34,27 @@
   margin-left: 80px;
 }
 
-#img-form-jour {
-  margin-bottom: 16px;
-}
-
 #img-form-jour3 {
-  margin-bottom: 140px;
+  margin-bottom: 120px;
 }
 
 .button {
   cursor: pointer;
   transition: background-color 0.4s;
+}
+
+#button-flèche {
+  img {
+    position: relative;
+    top: 130px;
+    left: 160px;
+    transition: 0.4s;
+  }
+
+  img:hover {
+    transform: translateY(40px);
+    rotate: (90deg);
+  }
 }
 
 .menu {

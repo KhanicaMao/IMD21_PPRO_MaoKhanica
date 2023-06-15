@@ -16,17 +16,23 @@
                 <a href="#home"><img src="/eikonica_white.6b9ee868.svg" alt="eikonica"></a>
               </div>
               <div class="col-1 offset-2">
-                <a href="#exposition">Exposition</a>
+                <a href="#exposition" data-hover="Exposition">Exposition</a>
               </div>
               <div class="col-2" id="info">
-                <a href="#infos">Infos pratiques</a>
+                <a href="#infos" data-hover="Infos pratiques">Infos pratiques</a>
               </div>
-              <div class="col-2"><a href="#programme">Programme</a></div>
+              <div class="col-2">
+                <a href="#programme" data-hover="Programme">Programme</a>
+              </div>
               <div class="col-1" id="partenaire">
-                <a href="#partenaire">Partenaires</a>
+                <a href="#partenaire" data-hover="Partenaires">Partenaires</a>
               </div>
-              <div class="col-1"><a href="#contact">Contact</a></div>
-              <div class="col-1"><a href="#langue">FR/DE</a></div>
+              <div class="col-1">
+                <a href="#contact" data-hover="Contact">Contact</a>
+              </div>
+              <div class="col-1">
+                <a href="#langue" data-hover="FR/DE">FR/DE</a>
+              </div>
             </div>
           </div>
         </div>
@@ -46,7 +52,7 @@
             <img src="/img-form-intro.927404be.png" alt="image">
           </div>
           <div class="col-6">
-            <div class="col-lg-10 offset-1" id="texte-intro">
+            <div class="col-lg-10" id="texte-intro">
               <p>
                 Le festival d'arts numériques eikonica de Fribourg est
                 l'événement à ne pas manquer pour tous les amateurs de nouvelles
@@ -63,16 +69,37 @@
       <div class="projet-presentation" id="projet">
         <div class="row">
           <div class="col-12"><h1>PROJET</h1></div>
-          <div class="col-12"></div>
+          <div class="col-12">
+            <img src="/image-projet.2582860f.png" alt="projet">
+          </div>
         </div>
       </div>
       <div class="section-exposition-infos">
         <div class="row">
           <div class="col-6">
-            <img src="/image-exposition.dc84cb9b.png" alt="exposition">
+            <div class="container">
+              <div class="image">
+                <img src="/image-exposition.dc84cb9b.png" alt="exposition">
+              </div>
+              <div class="texte">
+                <h1>EXPOSITION</h1>
+                <a href="#"><img src="/button-fleche-blanc.59f66dbd.png" alt="button-blanc"></a>
+              </div>
+            </div>
           </div>
           <div class="col-6">
-            <img src="/image-infos.6e57652d.png" alt="infos-pratiques">
+            <div class="container">
+              <div class="image">
+                <img src="/image-infos.6e57652d.png" alt="infos-pratiques">
+              </div>
+              <div class="texte">
+                <h1>
+                  INFOS <br>
+                  PRATIQUES
+                </h1>
+                <a href="#"><img src="/button-fleche-blanc.59f66dbd.png" alt="button-blanc"></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -81,8 +108,9 @@
           <div class="col-12" id="titre-artiste"><h1>ARTISTE</h1></div>
           <div class="col-4" id="kinetic-flow">
             <div class="row">
-              <div class="col-12">
+              <div class="col-12" id="kinetic-couleur">
                 <img src="/kinetic-flow.dc14080e.png" alt="kinetic flow">
+                <img src="/kinetic-flow-couleur.acfc6fd5.png" alt="kinetic flow couleur" class="hover-img">
               </div>
               <div class="col-1 offset-2" id="nombre-artiste"><h3>01</h3></div>
               <div class="col-8 offset-1" id="kinetic-txt">
@@ -96,8 +124,9 @@
           </div>
           <div class="col-4" id="neon-pulse">
             <div class="row">
-              <div class="col-12">
+              <div class="col-12" id="neon-couleur">
                 <img src="/neon-pulse.784e8bc9.png" alt="neon pulse">
+                <img src="/neon-pulse-couleur.81d9dc9b.png" alt="neon pulse couleur" class="hover-img">
               </div>
               <div class="col-2" id="nombre-artiste"><h3>02</h3></div>
               <div class="col-10" id="neon-pulse-txt">
@@ -111,8 +140,9 @@
           </div>
           <div class="col-4" id="min-jae-park">
             <div class="row">
-              <div class="col-12">
+              <div class="col-12" id="min-jae-couleur">
                 <img src="/min-jae-park.9fb51457.png" alt="min-jae park">
+                <img src="/min-jae-park-couleur.86223870.png" alt="min jae park couleur" class="hover-img">
               </div>
               <div class="col-2" id="nombre-artiste"><h3>03</h3></div>
               <div class="col-10" id="min-jae-txt">
@@ -130,25 +160,26 @@
         <div class="row">
           <div class="col-12">
             <div class="col-6"><h1>PROGRAMME</h1></div>
-            <div class="button">
-              <div class="row">
-                <div class="col-2 offset-1" id="img-form-jour">
-                  <img src="/forme-8.3e0c4d04.png" alt="decoration">
-                </div>
-                <div class="col-5" id="information">
-                  <div class="row">
-                    <div class="col-12"><h3>13.10 | 10h00 à 20h00</h3></div>
-                    <div class="col-12"><h2>JOUR 1</h2></div>
-                    <div class="col-12">
-                      <p>Artiste fribourgeois Kinetic Flow</p>
-                    </div>
+            <div class="row">
+              <div class="col-2 offset-1" id="img-form-jour">
+                <img src="/forme-8.3e0c4d04.png" alt="decoration">
+              </div>
+              <div class="col-5" id="information">
+                <div class="row">
+                  <div class="col-12"><h3>13.10 | 10h00 à 20h00</h3></div>
+                  <div class="col-12"><h2>JOUR 1</h2></div>
+                  <div class="col-12">
+                    <p>Artiste fribourgeois Kinetic Flow</p>
                   </div>
                 </div>
+              </div>
+              <div class="col-1" id="button-flèche" onclick="hideShow()">
+                <img src="/button-fleche.16f2cda5.png" alt="flèche" class="button">
               </div>
             </div>
             <div class="menu">
               <div class="col-12">
-                <div class="row">
+                <div class="row" id="menu">
                   <div class="col-2"><h4>11H</h4></div>
                   <div class="col-10">
                     <p>
@@ -183,20 +214,21 @@
             </div>
           </div>
           <div class="col-12"><hr></div>
-          <div class="col-12">
-            <div class="row">
-              <div class="col-2 offset-1" id="img-form-jour">
-                <img src="/frome-7.0db188d2.png" alt="decoration">
-              </div>
-              <div class="col-5" id="information">
-                <div class="row">
-                  <div class="col-12"><h3>14.10 | 10h00 à 20h00</h3></div>
-                  <div class="col-12"><h2>JOUR 2</h2></div>
-                  <div class="col-12">
-                    <p>Le Groupe belge Neon Pulse</p>
-                  </div>
+          <div class="row">
+            <div class="col-2 offset-1" id="img-form-jour">
+              <img src="/frome-7.0db188d2.png" alt="decoration">
+            </div>
+            <div class="col-5" id="information">
+              <div class="row">
+                <div class="col-12"><h3>14.10 | 10h00 à 20h00</h3></div>
+                <div class="col-12"><h2>JOUR 2</h2></div>
+                <div class="col-12">
+                  <p>Le Groupe belge Neon Pulse</p>
                 </div>
               </div>
+            </div>
+            <div class="col-1" id="button-flèche">
+              <img src="/button-fleche.16f2cda5.png" alt="flèche">
             </div>
           </div>
           <div class="col-12"><hr></div>
@@ -213,6 +245,9 @@
                     <p>Artiste Min-Jae Park</p>
                   </div>
                 </div>
+              </div>
+              <div class="col-1" id="button-flèche">
+                <img src="/button-fleche.16f2cda5.png" alt="flèche">
               </div>
             </div>
           </div>
@@ -241,15 +276,15 @@
         </div>
         <div class="col-3 offset-1" id="lien-media">
           <h4>Suivez Nous</h4>
-          <a href="https://fr.linkedin.com/">Linkedin</a>
+          <a href="https://fr.linkedin.com/" data-hover="Linkedin">Linkedin</a>
           <br>
-          <a href="https://www.instagram.com/">Instagram</a>
+          <a href="https://www.instagram.com/" data-hover="Instagram">Instagram</a>
           <br>
-          <a href="https://fr-fr.facebook.com/">Facebook</a>
+          <a href="https://fr-fr.facebook.com/" data-hover="Facebook">Facebook</a>
         </div>
         <div class="col-3">
           <h4>Politique de confidentialité</h4>
-          <a href="#">Lien Internet</a>
+          <a href="#" data-hover="Lien Internet">Lien Internet</a>
         </div>
         <div class="col-9 offset-3" id="logo-partenaire">
           <div class="row">

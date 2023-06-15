@@ -5089,9 +5089,35 @@ footer {
 }
 
 #nav-section a {
+  color: #ccea2d;
+  text-shadow: none;
   font-family: Modern Era;
-  font-size: 27px;
+  font-size: 28px;
   text-decoration: none;
+}
+
+#nav-section .col-1 a:before {
+  color: #fff;
+  content: attr(data-hover);
+  transition: transform .3s, opacity .3s;
+  position: absolute;
+}
+
+#nav-section .col-1 a:hover:before, #nav-section .col-1 a:focus:before {
+  opacity: 0;
+  transform: scale(.9);
+}
+
+#nav-section .col-2 a:before {
+  color: #fffffe;
+  content: attr(data-hover);
+  transition: transform .3s, opacity .3s;
+  position: absolute;
+}
+
+#nav-section .col-2 a:hover:before, #nav-section .col-2 a:focus:before {
+  opacity: 0;
+  transform: scale(.9);
 }
 
 #info a {
@@ -5107,6 +5133,10 @@ footer {
 #logo-eikonica a {
   position: relative;
   left: 40px;
+}
+
+#logo-eikonica a img {
+  width: 220px;
 }
 
 #intro img {
@@ -5136,6 +5166,75 @@ footer {
 
 #projet img {
   width: 1800px;
+}
+
+.section-exposition-infos {
+  background-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.container:hover .texte {
+  visibility: visible;
+}
+
+.container:hover img {
+  transform: scale(.98);
+}
+
+.image {
+  width: 840px;
+  height: 960px;
+}
+
+.image img {
+  object-fit: cover;
+  width: 850px;
+  height: 960px;
+  transition: all .4s;
+}
+
+.texte {
+  color: #fff;
+  width: 850px;
+  height: 430px;
+  visibility: hidden;
+  background-color: #000000b0;
+  justify-content: start;
+  align-items: start;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.texte h1 {
+  font-family: Fixture-ExpandedBold;
+  font-size: 60px;
+  position: relative;
+  top: 45px;
+  left: 30px;
+}
+
+.texte a img {
+  width: 115px;
+  transition: all .4s;
+  position: relative;
+  top: 220px;
+  left: 220px;
+}
+
+.texte img:hover {
+  transform: translate(20px, 40px);
 }
 
 #artiste {
@@ -5177,7 +5276,7 @@ footer {
 }
 
 #kinetic-flow {
-  width: 575px;
+  width: 584px;
 }
 
 #kinetic-flow .row {
@@ -5191,7 +5290,7 @@ footer {
 
 #min-jae-park {
   position: relative;
-  bottom: 50px;
+  bottom: 43px;
 }
 
 #min-jae-park .row {
@@ -5200,7 +5299,92 @@ footer {
 }
 
 #min-jae-park img {
-  width: 420px;
+  width: 440px;
+}
+
+#kinetic-couleur .col-12 {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  position: absolute;
+  overflow: hidden;
+}
+
+#kinetic-couleur .col-12 img {
+  transition: all .5s linear;
+}
+
+#kinetic-couleur img.hover-img {
+  opacity: 0;
+  width: 590px;
+  position: absolute;
+}
+
+#kinetic-couleur img:hover {
+  opacity: 0;
+  transition: all .4s;
+}
+
+#kinetic-couleur img.hover-img:hover {
+  opacity: 1;
+  transition: all .4s;
+  transform: scale(.98);
+}
+
+#neon-couleur .col-12 {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  position: absolute;
+  overflow: hidden;
+}
+
+#neon-couleur .col-12 img {
+  transition: all .5s linear;
+}
+
+#neon-couleur img.hover-img {
+  opacity: 0;
+  width: 519px;
+  position: absolute;
+}
+
+#neon-couleur img:hover {
+  opacity: 0;
+  transition: all .4s;
+}
+
+#neon-couleur img.hover-img:hover {
+  opacity: 1;
+  transition: all .4s;
+  transform: scale(.98);
+}
+
+#min-jae-couleur .col-12 {
+  position: relative;
+  overflow: hidden;
+}
+
+#min-jae-couleur .col-12 img {
+  transition: all .5s linear;
+}
+
+#min-jae-couleur img.hover-img {
+  opacity: 0;
+  width: 455px;
+  position: absolute;
+}
+
+#min-jae-couleur .col-12 img:hover {
+  opacity: 0;
+  transition: all .4s;
+  transform: scale(.98);
+}
+
+#min-jae-couleur img.hover-img:hover {
+  opacity: 1;
+  transition: all .4s;
+  transform: scale(.98);
 }
 
 #button-ticket {
@@ -5208,8 +5392,12 @@ footer {
   padding-top: 35px;
 }
 
-#button-ticket a:hover {
-  transform: scale(1.1);
+#button-ticket img {
+  transition: transform .2s;
+}
+
+#button-ticket img:hover {
+  transform: translateX(20px);
 }
 
 .section-artiste {
@@ -5255,17 +5443,24 @@ footer {
   margin-left: 80px;
 }
 
-#img-form-jour {
-  margin-bottom: 16px;
-}
-
 #img-form-jour3 {
-  margin-bottom: 140px;
+  margin-bottom: 120px;
 }
 
 .button {
   cursor: pointer;
   transition: background-color .4s;
+}
+
+#button-flèche img {
+  transition: all .4s;
+  position: relative;
+  top: 130px;
+  left: 160px;
+}
+
+#button-flèche img:hover {
+  transform: translateY(40px)rotate3d(0, 0, 1, 90deg);
 }
 
 .menu {
@@ -5316,7 +5511,34 @@ footer {
 }
 
 footer a {
+  color: #ccea2d;
+  text-shadow: none;
+  font-size: 17px;
   text-decoration: none;
+}
+
+footer .col-3 offset-1 a:before {
+  color: #fff;
+  content: attr(data-hover);
+  transition: transform .3s, opacity .3s;
+  position: absolute;
+}
+
+footer .col-3 offset-1 a:hover:before, footer .col-3 offset-1 a:focus:before {
+  opacity: 0;
+  transform: scale(.9);
+}
+
+footer .col-3 a:before {
+  color: #fffffe;
+  content: attr(data-hover);
+  transition: transform .3s, opacity .3s;
+  position: absolute;
+}
+
+footer .col-3 a:hover:before, footer .col-3 a:focus:before {
+  opacity: 0;
+  transform: scale(.9);
 }
 
 #footer img {

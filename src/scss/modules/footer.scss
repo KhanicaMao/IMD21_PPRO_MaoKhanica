@@ -3,6 +3,35 @@ footer {
 
   a {
     text-decoration: none;
+    color: #ccea2d;
+    font-size: 17px;
+    text-shadow: none;
+  }
+
+  .col-3 offset-1 a::before {
+    color: #ffffff;
+    content: attr(data-hover);
+    position: absolute;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .col-3 offset-1 a:hover::before,
+  .col-3 offset-1 a:focus::before {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+
+  .col-3 a::before {
+    color: #fffffe;
+    content: attr(data-hover);
+    position: absolute;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .col-3 a:hover::before,
+  .col-3 a:focus::before {
+    transform: scale(0.9);
+    opacity: 0;
   }
 }
 

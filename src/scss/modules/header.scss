@@ -32,9 +32,37 @@
   }
 
   a {
-    font-size: 27px;
     font-family: "Modern Era";
     text-decoration: none;
+    color: #ccea2d;
+    font-size: 28px;
+    text-shadow: none;
+  }
+
+  .col-1 a::before {
+    color: #ffffff;
+    content: attr(data-hover);
+    position: absolute;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .col-1 a:hover::before,
+  .col-1 a:focus::before {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+
+  .col-2 a::before {
+    color: #fffffe;
+    content: attr(data-hover);
+    position: absolute;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .col-2 a:hover::before,
+  .col-2 a:focus::before {
+    transform: scale(0.9);
+    opacity: 0;
   }
 }
 
@@ -56,5 +84,9 @@
   a {
     position: relative;
     left: 40px;
+  }
+
+  a img {
+    width: 220px;
   }
 }

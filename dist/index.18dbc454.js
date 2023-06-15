@@ -539,6 +539,17 @@ var openMenu = function() {
     button.classList.toggle("is-active");
 };
 button.addEventListener("click", openMenu);
+var div = document.getElementById("menu");
+var display = 0;
+function hideShow() {
+    if (display == 1) {
+        div.style.display = "block";
+        display = 0;
+    } else {
+        div.style.display = "none";
+        display = "1";
+    }
+}
 
 },{}]},["jQVXF","1SICI"], "1SICI", "parcelRequire0300")
 
