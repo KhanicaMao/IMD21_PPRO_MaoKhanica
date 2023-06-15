@@ -5493,6 +5493,7 @@ footer {
   margin-left: 50px;
   font-family: Fixture-ExpandedExtraBold;
   font-size: 100px;
+  text-decoration: none;
 }
 
 #localisation p {
