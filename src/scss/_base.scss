@@ -77,6 +77,12 @@ body {
     url("/src/fonts/Fixture-ExpandedSemiBold.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "FixtureUltra-Bold";
+  src: url("/src/fonts/FixtureUltra-Bold.woff") format("woff"),
+    url("/src/fonts/FixtureUltra-Bold.woff2") format("woff2");
+}
+
 a {
   color: inherit;
 }
@@ -105,7 +111,6 @@ body {
 }
 
 header {
-  background-color: rgb(0, 0, 0);
   color: white;
 }
 

@@ -1,9 +1,5 @@
 #artiste {
   background-color: #ccea2d;
-  h1 {
-    font-family: "Fixture-ExpandedBold";
-    font-size: 75px;
-  }
 
   img {
     position: relative;
@@ -31,8 +27,19 @@
 }
 
 #titre-artiste {
-  font-size: 50px;
-  padding: 50px 0 55px 70px;
+  h1 {
+    font-family: "Fixture-ExpandedBold";
+    font-size: 70px;
+    margin-left: 100px;
+    padding: 40px 0 45px 0;
+  }
+}
+
+#nombre-artiste {
+  h3 {
+    position: relative;
+    bottom: 20px;
+  }
 }
 
 #kinetic-flow {
@@ -74,6 +81,7 @@
   }
 
   .col-12 img {
+    opacity: 1;
     transition: all linear 0.5s;
   }
 
@@ -169,7 +177,7 @@
 }
 
 .section-artiste {
-  padding-bottom: 40px;
+  padding-bottom: 28px;
 }
 
 .col-4 {

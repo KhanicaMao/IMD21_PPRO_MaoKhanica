@@ -2,7 +2,7 @@
   h1 {
     font-family: "Fixture-ExpandedBold";
     font-size: 70px;
-    margin: 88px 0 110px 80px;
+    margin: 70px 0 115px 80px;
   }
 
   h2 {
@@ -18,8 +18,8 @@
   }
 
   hr {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   p {
@@ -34,16 +34,12 @@
   margin-left: 80px;
 }
 
-#img-form-jour3 {
-  margin-bottom: 120px;
-}
-
 .button {
   cursor: pointer;
   transition: background-color 0.4s;
 }
 
-#button-flèche {
+#button-fleche {
   img {
     position: relative;
     top: 130px;
@@ -57,9 +53,12 @@
   }
 }
 
+#box-jour3 {
+  margin-bottom: 400px;
+}
+
 .menu {
   height: auto;
-  overflow: hidden;
   margin: 50px 0 20px 200px;
 
   h4 {
@@ -71,10 +70,5 @@
     font-size: 20px;
   }
 
-  opacity: 0;
   transition: opacity 0.4s;
-}
-
-.menu.is-open {
-  opacity: 1;
 }
