@@ -61,16 +61,27 @@
 
 .menu {
   height: auto;
-  margin: 50px 0 20px 200px;
+  margin: 10px 0 20px 200px;
+  transition: opacity 0.4s;
 
   h4 {
     font-family: "Fixture-ExpandedLight";
     font-size: 45px;
   }
 
-  p {
+  .col-10 p {
     font-size: 20px;
   }
 
-  transition: opacity 0.4s;
+  #inscription-button {
+    img {
+      margin-top: 40px;
+      width: 320px;
+      transition: transform 0.2s;
+    }
+
+    img:hover {
+      transform: translateX(20px);
+    }
+  }
 }

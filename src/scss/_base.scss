@@ -83,6 +83,18 @@ body {
     url("/src/fonts/FixtureUltra-Bold.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "ModernEra-Regular";
+  src: url("/src/fonts/ModernEra-Regular.woff") format("woff"),
+    url("/src/fonts/ModernEra-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ModernEra-Medium";
+  src: url("/src/fonts/ModernEra-Medium.woff") format("woff"),
+    url("/src/fonts/ModernEra-Medium.woff2") format("woff2");
+}
+
 a {
   color: inherit;
 }
@@ -99,7 +111,7 @@ video {
 // ==================================== */
 
 body {
-  font-family: "Modern Era";
+  font-family: "ModernEra-Regular";
 
   h1 {
     font-family: "Fixture";
